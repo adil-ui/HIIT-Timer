@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url(fonts/Oswald-Regular.ttf);
+}
+body{
+    background-color: #00ffff;
+}
+section{
+    background-color: #00e5e5;
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(0 0 0 / 30%);
+    padding: 10px 0;
+}
+h1{
+    font-size: 45px;
+    color: #ccfafa;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.controls{
+    background-color: #00cece;
+    padding: 15px 0;
+    margin: 10px 0 20px;
+}
+.controls input{
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 4px 0px;
+    outline: none;
+}
+.controls span{
+    font-size: 18px;
+    color: #005c66;
+}
+.controls button{
+    background-color: #009090;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 17px;
+    transition: .5s;
+}
+p{
+    font-size: 4em;
+    color: #ccfafa;
+    font-weight: 100;
+
+}
+h6{
+    font-size: 9em;
+    color: #007272;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+}
+.btns{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.btns button{
+    background-color: #00a0a0;
+    font-size: 17px;
+    color: #ccfafa;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.btns button:first-child{
+    margin-right: 20px;
+
+}
+button:hover{
+    background-color: #00aeae;
+    cursor: pointer;
+}
